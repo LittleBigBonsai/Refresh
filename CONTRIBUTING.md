@@ -33,10 +33,10 @@ To run the server software in Debug mode correctly, use these commands:
 To run in release mode, simply append `--configuration Release` to the `dotnet run` invocation.
 You can also use your IDE to run the project for you.
 
-Make sure to add [the upstream Refresh repository](https://github.com/LittleBigRefresh/Refresh) as the "**upstream**" remote using your IDE or GitHub Desktop. Happy hunting!
+Make sure to add [the upstream Refresh repository](https://github.com/LittleBigBonsai/Refresh) as the "**upstream**" remote using your IDE or GitHub Desktop. Happy hunting!
 
 # Connecting locally
-You can either use the website front-end called [refresh-web](https://github.com/LittleBigRefresh/refresh-web) to test the API, or you can connect using a game.
+You can either use the website front-end called [refresh-web](https://github.com/LittleBigBonsai/refresh-web) to test the API, or you can connect using a game.
 
 Here's how to identify the URL to patch to: https://docs.littlebigrefresh.com/get-url.html
 
@@ -45,3 +45,5 @@ You can use these guides to find out how to patch your game:
 - https://docs.littlebigrefresh.com/rpcs3.html
 - https://docs.littlebigrefresh.com/psp.html
 - https://docs.littlebigrefresh.com/vita.html
+
+TODO: add new docs when we've got our own Bonsai specific website.

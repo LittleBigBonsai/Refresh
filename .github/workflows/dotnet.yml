@@ -40,7 +40,7 @@ jobs:
       run: dotnet publish -c Release -r win-x64 --self-contained Refresh.GameServer /p:Version=${VERSION}
       
     - name: Upload Linux x64 build
-      uses: actions/upload-artifact@v3.1.1
+      uses: actions/upload-artifact@v4
       with:
           name: "Refresh for Linux x64"
           path: "Refresh.GameServer/bin/Release/net8.0/linux-x64/publish/"
@@ -48,7 +48,7 @@ jobs:
           retention-days: 30
           
     - name: Upload Windows x64 build
-      uses: actions/upload-artifact@v3.1.1
+      uses: actions/upload-artifact@v4
       with:
           name: "Refresh for Windows x64"
           path: "Refresh.GameServer/bin/Release/net8.0/win-x64/publish/"
